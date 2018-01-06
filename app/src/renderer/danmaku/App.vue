@@ -125,7 +125,7 @@
       },
       danmakuListStyle () {
         return {
-          backgroundColor: `rgba(25, 25, 25, ${this.config.danmakuBackgroundOpacity / 100})`,
+          backgroundColor: `rgba(249, 233, 236, ${this.config.danmakuBackgroundOpacity / 100})`,
           bottom: !this.config.showOnlineAndFans ? 0 : '27px'
         }
       },
@@ -262,7 +262,7 @@
   height 100vh
   overflow hidden
 .reset-hint
-  background-color rgba(25,25,25,.4)
+  background-color rgba(249,233,236,.4)
 
 .toolbar
   position absolute
@@ -274,8 +274,8 @@
   overflow hidden
   .item
     flex 1
-    color #fff
-    background-color rgba(25,25,25,.8)
+    color #000
+    background-color rgba(249,233,236,.8)
   .item + .item
     margin-left 1px
   .online
@@ -309,7 +309,7 @@
   padding 4px 8px
   user-select none
   cursor default
-  color #fff
+  color #000
   .admin-user
     padding 1px 2px
     border-radius 4px
@@ -407,9 +407,26 @@
       height 32px
     .user-name
       color #ff8f34
+    .gift-action
+      color #000
+    .user-gift
+      color #000
   .success
     color #19be6b
   .failed
     color #ed3f14
-
+.user-comment
+  color #000
+.msg-new-fans
+  color #000
+.admin-user
+  color #fff
+.guard-user
+  color #fff
+.vip-user
+  color #fff
+.svip-user
+  color #fff
+.user-badge
+  color #fff
 </style>

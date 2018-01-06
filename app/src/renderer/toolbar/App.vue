@@ -90,8 +90,8 @@ html, body
     vertical-align middle
   .item
     flex 1
-    color #fff
-    background-color rgba(25,25,25,.8)
+    color #000
+    background-color rgba(249,233,236,.8)
   .item + .item
     margin-left 1px
   .drag
@@ -105,7 +105,7 @@ html, body
   top 1px
   padding 2px 0
   width 100%
-  background-color rgba(25,25,25,.8)
+  background-color rgba(249,233,236,.8)
   border-radius 5px
   overflow hidden
   .icon
@@ -123,8 +123,8 @@ html, body
     font-size 14px
     line-height 16px
     outline 0
-    color #fff
+    color #000
     background-color transparent
     &::-webkit-input-placeholder
-      color #fff
+      color #000
 </style>
